@@ -1,18 +1,8 @@
        @extends('principal')
        @section('contenido')
-       @vite([
-        'resources/assets/plantilla/css/font-awesome.min.css',
-                'resources/assets/plantilla/css/simple-line-icons.min.css',
-                'resources/assets/plantilla/css/style.css',
-                'resources/assets/plantilla/js/jquery.min.js',
-                'resources/assets/plantilla/js/popper.min.js',
-                'resources/assets/plantilla/js/bootstrap.min.js',
-                'resources/assets/plantilla/js/pace.min.js',
-                'resources/assets/plantilla/js/Chart.min.js',
-                'resources/assets/plantilla/js/template.js'])
-
+  
         <main class="main">
-          
+        @vite('resources/js/app.js')
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">Home</li>
