@@ -7,9 +7,16 @@
     <meta name="description" content="Sistema Ventas Laravel Vue Js- IncanatoIT">
     <meta name="author" content="Incanatoit.com">
     <meta name="keyword" content="Sistema ventas Laravel Vue Js, Sistema compras Laravel Vue Js">
+    
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/simple-line-icons.min.css" rel="stylesheet">
+    <!-- Main styles for this application -->
+    <link href="../css/style.css" rel="stylesheet">
+    
     <title>Laboratorio San Miguel</title>
     @vite('resources/js/app.js')
 </head>
+
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
     <header class="app-header navbar">
@@ -113,7 +120,18 @@
         <span><a href="http://www.google.com/">Laboratorio San Miguel</a> &copy; 2022</span>
         <span class="ml-auto">Desarrollado por <a href="http://www.google.com/">ING.MAHR</a></span>
     </footer>
+    
     <!-- Bootstrap and necessary plugins -->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/pace.min.js"></script>
+    <!-- Plugins and scripts required by all views -->
+    <script src="../js/Chart.min.js"></script>
+    <!-- GenesisUI main scripts -->
+    <script src="../js/template.js"></script>
+
 </body>
 
 </html> 
